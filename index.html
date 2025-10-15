@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/index.css">
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">RB Color Scheme Generator</nav>
+        </header>
+        <section>
+            <div id="overhead">
+                <input type="color" id="color-picker"/>
+                <div class="container">
+                    <select id="selector">
+                        <option value="monochrome">Monochrome</option>
+                        <option value="monochrome-dark">Monochrome-dark</option>
+                        <option value="monochrome-light">Monochrome-light</option>
+                        <option value="analogic">Analogic</option>
+                        <option value="complement">Complement</option>
+                        <option value="analogic-complement">Analogic-complement</option>
+                        <option value="triad">Triad</option>
+                    </select>
+                </div>
+                <button id="get-btn">Get color scheme</button>
+            </div>
+        </section>
+        <section>
+            <div class="display-color">
+                <div id="color0" class="colors"></div> 
+                <div id="color1" class="colors"></div>
+                <div id="color2" class="colors"></div>
+                <div id="color3" class="colors"></div>
+                <div id="color4" class="colors"></div>
+            </div>
+        </section>
+        <section>
+            <div class="display">
+                <div id="color-text0" class="color-text"></div>
+                <div id="color-text1" class="color-text"></div>
+                <div id="color-text2" class="color-text"></div>
+                <div id="color-text3" class="color-text"></div>
+                <div id="color-text4" class="color-text"></div>
+            </div>
+        </section>
+        <script src="/index.js"></script>
+    </body>
+</html>

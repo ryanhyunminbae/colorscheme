@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    max-height: 550px;
+}
+
+#navbar, #overhead, #color-display {
+    width: 550px;
+}
+#navbar {
+    font-weight: 500;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#overhead {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#color-picker {
+    width: 61px;
+    height: 42px;
+    padding: 1px 2px;
+}
+
+#selector {
+    font-weight: 100;
+    border: 1px solid #9CA3AF;
+    border-radius: 8px;
+    width: 312px;
+    height: 42px;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;    /* For Firefox */
+    appearance: none;
+    background-image: url('/images/down-arrow.png'); /* Or .png */
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Adjust position as needed */
+    background-size: 20px; /* Adjust size as needed */
+    padding-right: 30px; /* Add padding to prevent text overlapping the arrow */
+    padding: 10px 12px;
+}
+
+option {
+    background-color: #FFFFFF;
+}
+
+.display, .display-color {
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.display-color {
+    justify-content: start;
+}
+
+#get-btn {
+    font-weight: 100;
+    border: 1px solid #9CA3AF;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    width: 123px;
+    height: 42px;
+    font-size: 12px;
+}
+
+.colors {
+    height: 100%;
+    width: 110px;
+    
+}
+
+.color-text {
+    font-weight: medium;
+    font-size: 12px;
+}
