@@ -8,7 +8,7 @@ html, body {
     max-height: 550px;
 }
 
-#navbar, #overhead, #color-display {
+#navbar, #overhead, #color-display, .display {
     width: 550px;
 }
 #navbar {
